@@ -1,0 +1,9 @@
+info:
+  application:
+    name: metalarchives
+    description: Dive deep into the archives of Metal; ask questions; get answers; let hell consume you!
+    author: pl.manes
+
+spring:
+  profiles:
+    active: test
