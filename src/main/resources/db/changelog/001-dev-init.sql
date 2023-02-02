@@ -9,27 +9,27 @@ create table if not exists category
 
 --changeset pl.manes:001_2
 insert into category (id, name)
-values (random_uuid(), 'Music');
+values (gen_random_uuid(), 'Music');
 
 --changeset pl.manes:001_3
 insert into category (id, name)
-values (random_uuid(), 'Musician');
+values (gen_random_uuid(), 'Musician');
 
 --changeset pl.manes:001_4
 insert into category (id, name)
-values (random_uuid(), 'Bands');
+values (gen_random_uuid(), 'Bands');
 
 --changeset pl.manes:001_5
 insert into category (id, name)
-values (random_uuid(), 'Music History');
+values (gen_random_uuid(), 'Music History');
 
 --changeset pl.manes:001_6
 insert into category (id, name)
-values (random_uuid(), 'Clips');
+values (gen_random_uuid(), 'Clips');
 
 --changeset pl.manes:001_7
 insert into category (id, name)
-values (random_uuid(), 'Curiosities');
+values (gen_random_uuid(), 'Curiosities');
 
 --changeset pl.manes:001_8
 create table if not exists question
@@ -40,7 +40,7 @@ create table if not exists question
 
 --changeset pl.manes:001_9
 insert into question (id, name)
-values (random_uuid(), 'Who is the vocalist of the band Dimmu Borgir?');
+values (gen_random_uuid(), 'Who is the vocalist of the band Dimmu Borgir?');
 
 --changeset pl.manes:001_10
 create table if not exists answer
@@ -51,4 +51,4 @@ create table if not exists answer
 
 --changeset pl.manes:001_11
 insert into answer (id, name)
-values (random_uuid(), 'Shagrath (Stian Tomt Thoresen)');
+values (gen_random_uuid(), 'Shagrath (Stian Tomt Thoresen)');
